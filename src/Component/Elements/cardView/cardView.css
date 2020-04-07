@@ -1,0 +1,21 @@
+.grid-layout-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+.grid-layout-element{
+    max-height: 430px;
+    max-width: 500px;
+}
+
+
+
+@media screen and (max-width:700px){
+    .grid-layout-cols{
+        grid-template-columns: auto auto;
+    }
+    .grid-layout-element:nth-child(2n+2){
+        margin-right: 0;
+    }
+}

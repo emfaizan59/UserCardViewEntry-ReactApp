@@ -1,0 +1,27 @@
+.main-home{
+    padding: 20px;
+}
+
+.btn {
+    width: 100%;
+    font-family: 'Abel' , sans-serif;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background-color: brown;
+    color: white;
+    font-size: 20   px;
+    border: transparent;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 48%;
+    margin-left: 20px;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px grey;
+}

@@ -1,0 +1,26 @@
+.card-thumb{
+    width: auto;
+    height: 300px;
+    max-width: 100%;
+
+    background-size: 100% !important;
+    background-position: center;
+    color: black;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.card-thumb-element img {
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border : 2px solid black;
+}
+
+.card-thumb-element{
+        display: inline-block;
+}
